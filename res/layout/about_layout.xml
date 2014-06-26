@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical">
+        <TextView android:text="Developed by:" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:textStyle="bold|italic"></TextView>
+        <TextView android:text="Charles Wolfe" android:layout_width="fill_parent" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_marginLeft="10dip"></TextView>
+        <TextView android:text="2011" android:layout_width="fill_parent" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center_horizontal"></TextView>
+        <TextView android:text="" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <Button android:id="@+id/button1" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:text="Rate this app" android:layout_height="wrap_content"></Button>
+        <Button android:id="@+id/button2" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:text="Get more FREE Apps!" android:layout_height="wrap_content"></Button>
+        
+    </LinearLayout>
+    

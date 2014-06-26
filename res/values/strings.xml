@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gentleman Drunk</string>
+    <string name="main_no_items">No podcasts to display</string>
+    <string name="fb_url">http://www.facebook.com/Gentlemandrunk</string>
+    <string name="tw_url">https://mobile.twitter.com/#!/Gentdrunk</string>
+    <string name="it_url">http://itunes.apple.com/us/podcast/gentleman-drunk/id445367038</string>    
+    <string name="gp_url">https://plus.google.com/106004953240423511173/posts</string>     
+    <string name="web_url">http://blog.gentlemandrunk.com/?ci=23323</string>       
+    <string name="download">Download</string>    
+   
+</resources>

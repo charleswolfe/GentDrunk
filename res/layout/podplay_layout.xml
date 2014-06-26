@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/gd_bg">
+        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView android:text="TextView" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:gravity="center_vertical|center_horizontal" ></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="TextView" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="TextView" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/gentldrunkpromo" android:id="@+id/imageView1" android:gravity="center_vertical|center_horizontal" android:padding="10dip"></ImageView>
+        </TableRow>
+        
+            
+        
+        <LinearLayout 	android:orientation="horizontal"
+        				android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        >
+                        
+   <Button android:id="@+id/imageButton1" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:background="@drawable/fbshare"  android:paddingRight = "10dip" android:paddingLeft = "10dip" android:layout_marginLeft="12dip" android:layout_marginRight="12dip"></Button>
+   
+          
+   <Button android:layout_height="wrap_content" android:id="@+id/button1" android:layout_width="wrap_content"       android:background="@drawable/download_to_sd" android:paddingRight = "10dip" android:paddingLeft = "10dip" android:layout_marginLeft="12dip" android:layout_marginRight="12dip" ></Button>
+   
+   <Button android:id="@+id/imageButton2" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:background="@drawable/tweetbutton" android:paddingRight = "10dip" android:paddingLeft = "10dip" android:layout_marginLeft="12dip" android:layout_marginRight="12dip"></Button>
+ 
+   
+   </LinearLayout> 
+   
+              <RelativeLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+     
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bg"
+            android:layout_alignParentBottom="true"
+            >
+            
+       <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/nowTime"
+                android:layout_height = "wrap_content"
+                android:layout_width ="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12dip"
+                android:textStyle="bold"
+                android:paddingLeft = "7dip"
+                android:textColor = "#3c3d3d"
+                android:paddingBottom = "2dip"
+                android:text = "00:00"/>
+            <SeekBar 
+                android:id="@+id/PBar"
+                android:layout_gravity="bottom"
+                android:progressDrawable ="@drawable/seekbar"
+                android:thumb="@drawable/slider"
+                android:layout_width="0dip"
+                android:layout_weight = "1"
+                android:layout_height="wrap_content"
+                android:maxHeight = "5dip"
+                android:max = "100"
+                android:paddingLeft = "10dip"
+                android:paddingRight = "10dip"
+                android:progress="0"
+                android:secondaryProgress="0" />
+            <TextView
+                android:id="@+id/allTime"
+                android:layout_height = "wrap_content"
+                android:layout_width ="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12dip"
+                android:textStyle="bold"
+                android:paddingRight = "7dip"
+                android:paddingBottom = "2dip"
+                android:textColor = "#3c3d3d"
+                android:text = "00:00"/> 
+            </LinearLayout>
+               <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+       
+    <Button  android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content"   android:padding="10dip"   android:background="@layout/s_play"></Button>
+           
+   <Button  android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:padding="10dip"    android:background="@layout/s_stop"></Button>
+              
+   </LinearLayout>
+   
+
+            
+                  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >     
+        
+
+          
+         <com.google.ads.AdView
+     ads:adUnitId="a14e3ca5f0229b3"
+     ads:adSize="BANNER"
+     android:id="@+id/adView"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"/>
+     
+     </LinearLayout>
+     </LinearLayout>
+     </RelativeLayout>
+     
+     
+     
+    </TableLayout>
+    

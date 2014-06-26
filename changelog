@@ -1,0 +1,10 @@
+
+
+new in 1.1:
+-Save to SDcard prompt (confirm yes/no)
+-Improved play/pause/stop UI (button images and seek bar)
+-fixed download hang issue 
+
+
+need initial load timeout issue fixed
+need click on playing notification and app crashes issue

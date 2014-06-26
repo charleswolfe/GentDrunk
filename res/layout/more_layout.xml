@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_height="fill_parent" android:id="@+id/tableLayout1"  android:layout_width="fill_parent">
+        <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1" android:layout_width="wrap_content" android:baselineAligned="true">
+            <ImageButton android:src="@drawable/facebook_logo" android:id="@+id/imageButton1" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:layout_weight="1"  android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+            <ImageButton android:src="@drawable/twitter_logo" android:id="@+id/imageButton2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:src="@drawable/itunes_logo" android:id="@+id/imageButton3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+            <ImageButton android:src="@drawable/google_logo" android:id="@+id/imageButton4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:src="@drawable/email_logo" android:id="@+id/imageButton5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+            <ImageButton android:src="@drawable/web_logo" android:id="@+id/imageButton6" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:src="@drawable/paypal_logo" android:id="@+id/imageButton7" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:background="@drawable/imbuttonbg" android:padding="10dip"></ImageButton>
+        </TableRow>
+           </TableLayout>
+   
